@@ -7,6 +7,8 @@ def display_null_number(df):
   null_df['null数']=null_df[0]
   display(null_df[['null数']][null_df['null数']>0])
 
+
+
 #任意の列の値を結合して、新しいIdを作成する関数
 def create_id(df,cols):
 #colsは結合したい列名のリスト
